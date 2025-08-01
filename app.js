@@ -56,7 +56,6 @@ const db = mysql.createConnection({
   password: process.env.DB_PASSWORD || 'admin',
   database: process.env.DB_NAME || 'pickleball',
   charset: 'utf8mb4',
-  collation: 'utf8mb4_unicode_ci',
   port: process.env.DB_PORT || 3306
 });
 
